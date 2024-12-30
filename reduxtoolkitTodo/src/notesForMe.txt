@@ -1,0 +1,22 @@
+
+npm create vite@latest
+1. store --> configureStore[]
+2. reducers --> createReducer(), createSlice()
+3. useSelector --> createAction()
+4. useDispatch  --> 
+
+work-->
+ 1. create a folder app then a file store.js
+ 2. import configureStore from '@reduxjs/toolkit'
+ 3. create feature folder
+   i. create todoSlice.js 
+   ii. nanoid --> used for generate unique id
+
+
+   --> reducers me 2 parameter ka access hamesha milta h state and action ka
+    export all functions 
+--> store ke ander kch add krna h (addTodo) --- useDispatch
+
+--> useDispatch reducers ka use krte hue store me changes krta h
+
+single source of truth
